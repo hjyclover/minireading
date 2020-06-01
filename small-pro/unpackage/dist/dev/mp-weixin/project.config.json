@@ -1,0 +1,42 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wx6299b27e5ecf1ef2",
+	"projectname": "small-pro",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"name": "my",
+					"id": 0,
+					"pathName": "pages/profile/profile"
+				}
+			]
+		}
+	}
+}

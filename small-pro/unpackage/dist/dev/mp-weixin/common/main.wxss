@@ -1,0 +1,36 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.app,page{
+	width: 100%;
+	height: 100%;
+	background: #ffafaf;
+}
+.flexbox{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
