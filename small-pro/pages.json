@@ -28,29 +28,32 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "迷妮解读所",
-		"navigationBarBackgroundColor": "#DD524D",
-		"backgroundColor": "#DD524D"
+		"navigationBarBackgroundColor": "#F5B4D2",
+		"backgroundColor": "#F5B4D2"
 	},
 	"tabBar":{
-		"selectedColor":"#DD524D",
+		"color":"#E6E6FA",
+		"backgroundColor":"#F5B4D2",
+		"selectedColor":"#fff",
+		"borderStyle":"#F5B4D2",
 		"list":[
 			{
 				"pagePath":"pages/home/home",
 				"text":"迷妮",
-				"iconPath":"./static/icon/home.png",
-				"selectedIconPath":"./static/icon/home.png"
+				"iconPath":"./static/icon/home-default.png",
+				"selectedIconPath":"./static/icon/home-acitve.png"
 			},
 			{
 				"pagePath":"pages/msg/msg",
 				"text":"解读所",
-				"iconPath":"./static/icon/msg.png",
-				"selectedIconPath":"./static/icon/msg.png"
+				"iconPath":"./static/icon/news-default.png",
+				"selectedIconPath":"./static/icon/news-active.png"
 			},
-			{
+			{ 
 				"pagePath":"pages/profile/profile",
 				"text":"秘密基地",
-				"iconPath":"./static/icon/my.png",
-				"selectedIconPath":"./static/icon/my.png"
+				"iconPath":"./static/icon/my-default.png",
+				"selectedIconPath":"./static/icon/my-active.png"
 			}
 		]
 	},

@@ -20,7 +20,8 @@
 	.app,body{
 		width: 100%;
 		height: 100%;
-		background: #ffafaf;
+		background: #F5B4D2;
+		background-image: linear-gradient(rgb(245,180,210),rgb(247,196,215)); 
 	}
 	.flexbox{
 		display: flex;
