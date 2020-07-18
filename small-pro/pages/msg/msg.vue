@@ -13,6 +13,12 @@
 		},
 		methods: {
 			
+		},
+		onPullDownRefresh() {
+			let _this = this
+			setTimeout(function(){
+				uni.stopPullDownRefresh()
+			},1000)
 		}
 	}
 </script>
