@@ -52,7 +52,7 @@
 						<image src="../../static/image/my/aaas.jpg" class="my-cont-audioImg"></image>
 					</view>
 					<view class="my-cont-action">
-						<view>
+						<view>   <!-- 点赞默认是白色,如果点击了就变成粉色 评论不管有没有评论都是粉色 -->
 							<i class="iconfont icon-dianzan"></i>
 							<text>666</text>
 						</view>
