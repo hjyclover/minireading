@@ -1,8 +1,23 @@
 <script>
 	export default {
+		methods:{
+			getPhoneInfo: function(){
+				plus.device.getInfo({
+				        success:function(e){
+				            console.log('getDeviceInfo success: '+JSON.stringify(e));
+				        },
+				        fail:function(e){
+				            console.log('getDeviceInfo failed: '+JSON.stringify(e));
+				        }
+				    });
+			},  
+		},
 		onLaunch: function() {
 			console.log('App Launch')
+			// this.getPhoneInfo() 
+			
 		},
+		
 		globalData:{
 			systemInfo: uni.getSystemInfoSync()
 		},
