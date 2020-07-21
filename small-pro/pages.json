@@ -28,7 +28,7 @@
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "迷妮解读所",
 		"navigationBarBackgroundColor": "#F5B4D2",
-		"backgroundColor": "#F5B4D2",
+		"backgroundColor": "white",
 		"enablePullDownRefresh":true
 		
 	},
