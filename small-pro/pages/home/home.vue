@@ -23,6 +23,17 @@
 						articlePic:"../../static/image/my/aaas.jpg",
 						likes:666,
 						discuss:555
+					},
+					{
+						id:1,
+						userPro:'../../static/image/my/aaas.jpg',
+						userName:"萝莉小萌",
+						postTime:"2019-8-19 15:40",
+						contTitle:"辛壮娇",
+						contTxt:"人生好好坏坏,就是这样的,不要太介意",
+						articlePic:"../../static/image/my/aaas.jpg",
+						likes:666,
+						discuss:555
 					}
 				]
 			}

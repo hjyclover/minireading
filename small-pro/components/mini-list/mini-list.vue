@@ -71,7 +71,7 @@
 			border-radius: 10upx;
 			padding: 20upx;
 			box-sizing: border-box;
-
+			margin-bottom: 20upx;
 			.my-cont-item-head {
 				display: flex;
 

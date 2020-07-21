@@ -23,6 +23,10 @@
             "path" : "pages/home/articleDetails/articleDetails",
             "style" : {}
         }
+        ,{
+            "path" : "components/mini-list-detail/mini-list-detail",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
