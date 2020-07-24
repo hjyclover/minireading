@@ -75,11 +75,7 @@
 			.my-cont-item-head {
 				display: flex;
 
-				.my-cont-userPro {
-					width: 100upx;
-					height: 100upx;
-					border-radius: 50%;
-				}
+				
 
 				.my-cont-userInfo {
 					display: flex;

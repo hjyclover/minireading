@@ -32,7 +32,7 @@
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "迷妮解读所",
 		"navigationBarBackgroundColor": "#F5B4D2",
-		"backgroundColor": "white",
+		"backgroundColor": "F5B4D2",
 		"enablePullDownRefresh":true
 		
 	},
@@ -40,7 +40,7 @@
 		"color":"#E6E6FA",
 		"backgroundColor":"#F5B4D2",
 		"selectedColor":"#fff",
-		"borderStyle":"#F5B4D2",
+		"borderStyle":"white",
 		"list":[
 			{
 				"pagePath":"pages/home/home",
@@ -82,7 +82,7 @@
 		"list":[
 			{
 				"name":"my",
-				"path" : "pages/home/home"
+				"path" : "pages/msg/msg"
 				
 			}
 		]

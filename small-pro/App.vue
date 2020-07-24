@@ -63,4 +63,12 @@
 		text-overflow: ellipsis;
 		white-space: wrap;
 	}
+	::-webkit-scrollbar {display:none}
+	
+	/* 头像大小 */
+	.my-cont-userPro {
+		width: 100upx;
+		height: 100upx;
+		border-radius: 50%;
+	}
 </style>
