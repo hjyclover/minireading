@@ -1,7 +1,13 @@
 <template>
 	<view class="app">
 		<view class="my-head">
-			<view class="userPortrait">
+			<!-- 设置 -->
+			<view class="signBox cardItem" @click="goToPage('./sign')">
+				<view class="zwyHover2" >
+					<i class='iconfont icon-shezhi '></i>
+				</view>
+			</view>
+			<view class="userPortrait" @click="goToPage('./userInfo')">
 				<image src="../../static/image/my/aaas.jpg" mode="widthFix"></image>
 			</view>
 			<view class="userInfo">
@@ -99,6 +105,10 @@
 		methods: {
 				tapActionItem(id){
 					this.thisActions = id
+				},
+				goToPage(url){
+					this.$gotoPage(url)
+				
 				}
 			    
 		},
@@ -107,6 +117,9 @@
 			setTimeout(function(){
 				uni.stopPullDownRefresh()
 			},1000)
+		},
+		onHide() {
+			clearTimeout()
 		}
 	}
 </script>
@@ -125,7 +138,7 @@
 			&::after{
 				position: absolute;
 				top: 100upx;
-				left: 40upx;
+				// left: 40upx;
 				content: "mini";
 				color: rgba($color: #fff, $alpha: 0.4);
 				display: inline-block;
@@ -197,6 +210,20 @@
 				}
 			}
 			
+			.signBox{
+				position: absolute;
+				right: 50upx;
+				top: 10upx;
+				.iconfont{
+					display: block;
+					font-size: 56upx !important;
+					color: #ff0081;
+					z-index: 999;
+					top: -10%;
+				}
+				
+				
+			}
 		
 		}
 	
@@ -276,4 +303,6 @@
 		}
 	
 	}
+	
+
 </style>
