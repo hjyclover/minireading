@@ -86,10 +86,7 @@
 				border-color: transparent;
 			}
 		}
-		.holdColor{
-			color: #FFFFFF;
-			font-size: 28upx;
-		}
+		
 	}
 	.gotoLogin{
 		position: absolute;

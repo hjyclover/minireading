@@ -41,17 +41,27 @@
 					"navigationBarTitleText": "注册"
 				}
 		},
-		
-		
+		{
+		    "path" : "pages/profile/userInfo",
+		    "style" : {
+					"navigationBarTitleText": "个人信息"
+				}
+		},
+		{
+		    "path" : "pages/msg/add/add",
+		    "style" : {
+					"navigationBarTitleText": "发布心情",
+					"enablePullDownRefresh":false
+					
+				}
+		},
 		
 		{
 			"path": "components/mini-list-detail/mini-list-detail"
 		}
 	    
-        ,{
-            "path" : "pages/profile/userInfo",
-            "style" : {}
-        }
+        
+       
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
@@ -69,20 +79,20 @@
 		"list": [{
 				"pagePath": "pages/home/home",
 				"text": "迷妮",
-				"iconPath": "./static/icon/home-default.png",
-				"selectedIconPath": "./static/icon/home-acitve.png"
+				"iconPath": "static/icon/home-default.png",
+				"selectedIconPath": "static/icon/home-acitve.png"
 			},
 			{
 				"pagePath": "pages/msg/msg",
 				"text": "解读所",
-				"iconPath": "./static/icon/news-default.png",
-				"selectedIconPath": "./static/icon/news-active.png"
+				"iconPath": "static/icon/news-default.png",
+				"selectedIconPath": "static/icon/news-active.png"
 			},
 			{
 				"pagePath": "pages/profile/profile",
 				"text": "秘密基地",
-				"iconPath": "./static/icon/my-default.png",
-				"selectedIconPath": "./static/icon/my-active.png"
+				"iconPath": "static/icon/my-default.png",
+				"selectedIconPath": "static/icon/my-active.png"
 			}
 		]
 	},

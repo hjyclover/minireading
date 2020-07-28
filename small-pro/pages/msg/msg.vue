@@ -6,7 +6,7 @@
 		
 		<!-- 发布秘密 -->
 		<view class="add" >
-			<view class="addIcon">
+			<view class="addIcon" @click="gotoPage()">
 				<i class="iconfont icon-tianjia "></i>
 			</view>
 		</view>
@@ -37,7 +37,9 @@
 			}
 		},
 		methods: {
-			
+			gotoPage(){
+				this.$gotoPage('./add/add')
+			}
 		},
 		onPullDownRefresh() {
 			let _this = this

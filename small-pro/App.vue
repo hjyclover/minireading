@@ -71,6 +71,10 @@
 		height: 100upx;
 		border-radius: 50%;
 	}
+	.holdColor{
+		color: #f4f4f4;
+		font-size: 28upx;
+	}
 	
 	/* 外闪效果 */
 	.zwyHover2 {

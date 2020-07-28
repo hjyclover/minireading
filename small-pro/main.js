@@ -14,7 +14,7 @@ const gotoPage = (url)=>{
 	})
 }
 
-const Msg = (title,)=>{
+const Msg = (title,icon,time,mask)=>{
 		title = title == undefined ? "系统繁忙" : title;
 		icon = icon == undefined ? "none" : icon;
 		time = time == undefined ? 1500 : time;
